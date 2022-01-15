@@ -35,9 +35,6 @@ def load_logos(LOGO_PATH):
 
   random.shuffle(logo_names)
   return logo_names
-  
-load_images()
-load_logos()
 
 def combine(orig_img, logo, transparent=.5):
   # Combines image and logo
