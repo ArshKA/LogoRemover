@@ -23,7 +23,7 @@ def load_images(IMAGES_PATH):
   return imgs_arr
  
 def load_logos(LOGO_PATH):
-  # Loads all logos to list
+  # Verifies logos 
   logo_names = []
   for (dirpath, dirnames, filenames) in walk('/content/logos'):
       logo_names.extend(filenames)
