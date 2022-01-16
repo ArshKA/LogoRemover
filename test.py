@@ -35,7 +35,7 @@ def test_data_gen(imgs_arr, logo_path, logo_names):
       return [(logo_img_arr-127.5)/127.5], [mask_arr, (missing_arr-127.5)/127.5, (clean_img_arr-127.5)/127.5]
     except: pass
     
-a = test_data_gen(imgs_arr[:len(imgs_arr)//5], logo_path, logo_names[:len(logo_names)//5])
+a = test_data_gen(imgs_arr[:len(imgs_arr)//5], LOGO_PATH, logo_names[:len(logo_names)//5])
 cv2.imwrite('output/logo.png', a[0][0]*127.5+127.5)
 cv2.imwrite('output/missing.png', a[1][1]*127.5+127.5)
 cv2.imwrite('output/correct.png', a[1][2]*127.5+127.5)
