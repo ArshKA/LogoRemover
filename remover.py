@@ -9,7 +9,7 @@ from keras.optimizers import Adam
 IMAGES_PATH = ''
 LOGO_PATH = ''
 
-load_images(IMAGES_PATH)
+imgs_arr = load_images(IMAGES_PATH)
 logo_names = load_logos(LOGO_PATH)
 
 train_gen = data_gen(imgs_arr[len(imgs_arr)//5:], logo_path, logo_names[len(logo_names)//5:], 16)
