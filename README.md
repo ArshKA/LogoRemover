@@ -17,3 +17,4 @@ During training the logos are transposed onto a random image in a random locatio
 
 The model is composed of 3 main part. The first output is the mask of the missing image location. This is multiplied with the image and therefore wherever the mask contained 0s (the predicted transposed watermark), the image was cleared. Then another part of the model was run which predicts the missing pixel values in the masked region. This is added to the image which was cleared of the logo. Finally a third part smoothens the boundries of the image and sharpens the features.
 
+![Actual dog image](output/dogActual.png "Actual Image")
