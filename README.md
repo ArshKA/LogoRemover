@@ -19,8 +19,8 @@ The model is composed of 3 main part. The first output is the mask of the missin
 
 # Outputs
 
-### Actual | ### Predicted
-![Actual dog image](output/dogActual.png "Actual Image") | ![Predicted dog image](output/dogPredict.png "Predicted Image")
+### Actual                                                 Predicted
+![Actual dog image](output/dogActual.png "Actual Image") ![Predicted dog image](output/dogPredict.png "Predicted Image")
 
 
 ## Earlier model with steps
