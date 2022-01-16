@@ -25,13 +25,8 @@ Actual                     |Predicted
 
 
 ## Earlier model with steps
-### Actual
-![Actual people image](output/peopleActual.png "Actual Image")
-### Mask
-![Masked people image](output/peopleMask.png "Masked Image")
-### Fill
-![Fill prediction people image](output/peopleFill.png "Predicted Fill Image")
-### Predicted
-![Predicted people image](output/peoplePredict.png "Predicted Image")
+Actual | Mask | Fill | Predicted
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+![Actual people image](output/peopleActual.png "Actual Image") | ![Masked people image](output/peopleMask.png "Masked Image") | ![Fill prediction people image](output/peopleFill.png "Predicted Fill Image") | ![Predicted people image](output/peoplePredict.png "Predicted Image")
 
 
