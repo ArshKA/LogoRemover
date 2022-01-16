@@ -31,4 +31,4 @@ Before | Mask | Fill | Predicted
 
 # TODO
 
-Implement a GAN to increase the visual authenticy of the image. GANs penalize an impainter on realness which matters more than accuracy in this scenario. If the model is not sure whether the missing section contains a button or not for example, it might add a blurry button to minimize loss from the actual picture. However a GAN's loss would lead to a more realistic image rather than accuracy to the actual image, which matters more in this scenario.
+Implement a GAN to increase the visual authenticy of the image. If the current model is not sure whether the missing section contains a button or not for example, it might add a blurry button to minimize loss from the actual picture. However a GAN's loss would lead to a more realistic image rather than accuracy to the actual image, which matters more in this scenario.
