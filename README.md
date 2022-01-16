@@ -25,7 +25,8 @@ Before                     |Predicted
 
 
 ## Earlier model with steps
-Before
+Before | Mask | Fill | Predicted
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 ![Actual people image](output/peopleActual.png "Actual Image") | ![Masked people image](output/peopleMask.png "Masked Image") | ![Fill prediction people image](output/peopleFill.png "Predicted Fill Image") | ![Predicted people image](output/peoplePredict.png "Predicted Image")
 
 
